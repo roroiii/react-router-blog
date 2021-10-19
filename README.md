@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# BLOG with React Router
+## 一個用 React Router 製作的 RWD BLOG
+RWD Blog，實作 React Router 與 React Markdown，串接 Lidemy JWT token 。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+作品網址：
 
-## Available Scripts
+### User Story
+1. 身為一個使用者，我希望 BLOG 可以註冊帳號密碼與暱稱。
+2. 身為一個使用者，我希望 BLOG 可以輸入帳號密碼登入。
+3. 身為一個使用者，我希望 BLOG 可以使用 Markdown 語法發表文章。
 
-In the project directory, you can run:
+
+### `功能`
+
+1. 登入頁面：輸入帳號密碼後可以登入
+2. 註冊頁面：可以開放使用者註冊
+3. About 頁面：隨意顯示一些關於這個部落格的話
+4. 文章列表頁面：可以看到所有文章，一頁只會顯示 9 筆，有分頁功能，可以換頁
+5. 單篇文章頁面：點進去文章以後可以看到文章完整內容
+6. 發表文章頁面：可以輸入標題跟內文發文
+
+
+- 自動暫存在本機
+- 支援中文輸入，支援 Enter 鍵新增 todo 
+- 支援基本的行動裝置 RWD
+
 
 ### `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open http://localhost:3000 to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./public/react-blog.png" width="534">
