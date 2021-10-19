@@ -2,7 +2,7 @@
 ## 一個用 React Router 製作的 RWD BLOG
 RWD Blog，實作 React Router 與 React Markdown，串接 Lidemy JWT token 。
 
-作品網址：
+作品網址：https://roroiii.github.io/react-router-blog/
 
 ### User Story
 1. 身為一個使用者，我希望 BLOG 可以註冊帳號密碼與暱稱。
